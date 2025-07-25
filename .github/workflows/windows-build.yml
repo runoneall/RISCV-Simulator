@@ -18,6 +18,7 @@ jobs:
           mkdir build
           cd build
           cmake ..
+          ls
           make
 
       - run: ls
