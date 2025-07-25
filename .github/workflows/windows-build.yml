@@ -21,7 +21,6 @@ jobs:
           make
 
       - run: ls
-      - run: dir
 
       - uses: actions/upload-artifact@v4
         with:
